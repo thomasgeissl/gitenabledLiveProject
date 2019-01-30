@@ -37,8 +37,8 @@
 					<AutomationLanes>
 						<AutomationLanes>
 							<AutomationLane>
-								<SelectedDevice Value="99" />
-								<SelectedEnvelope Value="8" />
+								<SelectedDevice Value="100" />
+								<SelectedEnvelope Value="13" />
 								<IsContentSelected Value="true" />
 								<LaneHeight Value="85" />
 								<FadeViewVisible Value="false" />
@@ -73900,6 +73900,502 @@
 								</Freeze>
 								<DelayTransitionMode Value="1" />
 							</PingPongDelay>
+							<BeatRepeat Id="5">
+								<LomId Value="0" />
+								<LomIdView Value="0" />
+								<IsExpanded Value="true" />
+								<On>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="true" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="true" />
+									<AutomationTarget Id="21528">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</On>
+								<ParametersListWrapper LomId="0" />
+								<LastSelectedTimeableIndex Value="13" />
+								<LastSelectedClipEnvelopeIndex Value="0" />
+								<LastPresetRef>
+									<Value>
+										<AbletonDefaultPresetRef>
+											<FileRef>
+												<HasRelativePath Value="true" />
+												<RelativePathType Value="5" />
+												<RelativePath>
+													<RelativePathElement Dir="Devices" />
+													<RelativePathElement Dir="Audio Effects" />
+													<RelativePathElement Dir="Beat Repeat" />
+												</RelativePath>
+												<Name Value="" />
+												<Type Value="2" />
+												<Data>
+													0000000001FC00020001036F7378000000000000000000000000000000000000000000000000D80A
+													C0A8482B0000002BDDD50B4265617420526570656174000000000000000000000000000000000000
+													00000000000000000000000000000000000000000000000000000000000000000000002BDDDDD852
+													F92B0000000000000000FFFFFFFF000009200000000000000000000000000000000D417564696F20
+													4566666563747300001000080000D80B06F80000001100080000D8533F7B00000001001C002BDDD5
+													002BD159002BCC1C002BCC11002BCC0F002BCC0E0000017B000200766F73783A4170706C69636174
+													696F6E733A0041626C65746F6E204C69766520392053756974652E6170703A00436F6E74656E7473
+													3A004170702D5265736F75726365733A00436F7265204C6962726172793A00446576696365733A00
+													417564696F20456666656374733A004265617420526570656174000E0018000B0042006500610074
+													0020005200650070006500610074000F00080003006F007300780012006B4170706C69636174696F
+													6E732F41626C65746F6E204C69766520392053756974652E6170702F436F6E74656E74732F417070
+													2D5265736F75726365732F436F7265204C6962726172792F446576696365732F417564696F204566
+													66656374732F426561742052657065617400001300012F00FFFF0000
+												</Data>
+												<RefersToFolder Value="true" />
+												<SearchHint>
+													<PathHint />
+													<FileSize Value="0" />
+													<Crc Value="0" />
+													<MaxCrcSize Value="0" />
+													<HasExtendedInfo Value="false" />
+												</SearchHint>
+												<LivePackName Value="Core Library" />
+												<LivePackId Value="www.ableton.com/0" />
+											</FileRef>
+											<DeviceId Name="BeatRepeat" />
+										</AbletonDefaultPresetRef>
+									</Value>
+								</LastPresetRef>
+								<LockedScripts />
+								<IsFolded Value="false" />
+								<ShouldShowPresetName Value="false" />
+								<UserName Value="" />
+								<Annotation Value="" />
+								<SourceContext>
+									<Value>
+										<BranchSourceContext>
+											<OriginalFileRef>
+												<FileRef>
+													<HasRelativePath Value="true" />
+													<RelativePathType Value="5" />
+													<RelativePath>
+														<RelativePathElement Dir="Devices" />
+														<RelativePathElement Dir="Audio Effects" />
+														<RelativePathElement Dir="Beat Repeat" />
+													</RelativePath>
+													<Name Value="" />
+													<Type Value="2" />
+													<Data>
+														0000000001FC00020001036F7378000000000000000000000000000000000000000000000000D80A
+														C0A8482B0000002BDDD50B4265617420526570656174000000000000000000000000000000000000
+														00000000000000000000000000000000000000000000000000000000000000000000002BDDDDD852
+														F92B0000000000000000FFFFFFFF000009200000000000000000000000000000000D417564696F20
+														4566666563747300001000080000D80B06F80000001100080000D8533F7B00000001001C002BDDD5
+														002BD159002BCC1C002BCC11002BCC0F002BCC0E0000017B000200766F73783A4170706C69636174
+														696F6E733A0041626C65746F6E204C69766520392053756974652E6170703A00436F6E74656E7473
+														3A004170702D5265736F75726365733A00436F7265204C6962726172793A00446576696365733A00
+														417564696F20456666656374733A004265617420526570656174000E0018000B0042006500610074
+														0020005200650070006500610074000F00080003006F007300780012006B4170706C69636174696F
+														6E732F41626C65746F6E204C69766520392053756974652E6170702F436F6E74656E74732F417070
+														2D5265736F75726365732F436F7265204C6962726172792F446576696365732F417564696F204566
+														66656374732F426561742052657065617400001300012F00FFFF0000
+													</Data>
+													<RefersToFolder Value="true" />
+													<SearchHint>
+														<PathHint />
+														<FileSize Value="0" />
+														<Crc Value="0" />
+														<MaxCrcSize Value="0" />
+														<HasExtendedInfo Value="false" />
+													</SearchHint>
+													<LivePackName Value="Core Library" />
+													<LivePackId Value="www.ableton.com/0" />
+												</FileRef>
+											</OriginalFileRef>
+											<BrowserContentPath Value="query:AudioFx#Beat%20Repeat" />
+											<PresetRef>
+												<AbletonDefaultPresetRef>
+													<FileRef>
+														<HasRelativePath Value="true" />
+														<RelativePathType Value="5" />
+														<RelativePath>
+															<RelativePathElement Dir="Devices" />
+															<RelativePathElement Dir="Audio Effects" />
+															<RelativePathElement Dir="Beat Repeat" />
+														</RelativePath>
+														<Name Value="" />
+														<Type Value="2" />
+														<Data>
+															0000000001FC00020001036F7378000000000000000000000000000000000000000000000000D80A
+															C0A8482B0000002BDDD50B4265617420526570656174000000000000000000000000000000000000
+															00000000000000000000000000000000000000000000000000000000000000000000002BDDDDD852
+															F92B0000000000000000FFFFFFFF000009200000000000000000000000000000000D417564696F20
+															4566666563747300001000080000D80B06F80000001100080000D8533F7B00000001001C002BDDD5
+															002BD159002BCC1C002BCC11002BCC0F002BCC0E0000017B000200766F73783A4170706C69636174
+															696F6E733A0041626C65746F6E204C69766520392053756974652E6170703A00436F6E74656E7473
+															3A004170702D5265736F75726365733A00436F7265204C6962726172793A00446576696365733A00
+															417564696F20456666656374733A004265617420526570656174000E0018000B0042006500610074
+															0020005200650070006500610074000F00080003006F007300780012006B4170706C69636174696F
+															6E732F41626C65746F6E204C69766520392053756974652E6170702F436F6E74656E74732F417070
+															2D5265736F75726365732F436F7265204C6962726172792F446576696365732F417564696F204566
+															66656374732F426561742052657065617400001300012F00FFFF0000
+														</Data>
+														<RefersToFolder Value="true" />
+														<SearchHint>
+															<PathHint />
+															<FileSize Value="0" />
+															<Crc Value="0" />
+															<MaxCrcSize Value="0" />
+															<HasExtendedInfo Value="false" />
+														</SearchHint>
+														<LivePackName Value="Core Library" />
+														<LivePackId Value="www.ableton.com/0" />
+													</FileRef>
+													<DeviceId Name="BeatRepeat" />
+												</AbletonDefaultPresetRef>
+											</PresetRef>
+											<BranchDeviceId Value="device:ableton:audiofx:BeatRepeat?n=Beat%20Repeat" />
+										</BranchSourceContext>
+									</Value>
+								</SourceContext>
+								<OverwriteProtectionNumber Value="2306" />
+								<Chance>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="1" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="1" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="1" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21529">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21530">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</Chance>
+								<Interval>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="3" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="3" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="7" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21531">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21532">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</Interval>
+								<Offset>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="4" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="4" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="15" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21533">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21534">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</Offset>
+								<Grid>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="9" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="9" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="15" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21535">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21536">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</Grid>
+								<BlockTripplets>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="false" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="false" />
+									<AutomationTarget Id="21537">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</BlockTripplets>
+								<GridChance>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="10" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21538">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21539">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</GridChance>
+								<GridChanceType>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<EnumEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<AutomationTarget Id="21540">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+								</GridChanceType>
+								<Gate>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="6" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="6" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="18" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21541">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21542">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</Gate>
+								<DampVolume>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="1" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21543">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21544">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</DampVolume>
+								<DampPitch>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="1" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21545">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21546">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</DampPitch>
+								<BasePitch>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="12" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21547">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21548">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</BasePitch>
+								<MixType>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<EnumEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<AutomationTarget Id="21549">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+								</MixType>
+								<WetLevel>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0.6165950894" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0.6165950894" />
+									<MidiControllerRange>
+										<Min Value="0.0003162277571" />
+										<Max Value="1.99526238" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21550">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21551">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</WetLevel>
+								<FilterOn>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="false" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="false" />
+									<AutomationTarget Id="21552">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</FilterOn>
+								<MidFreq>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="1000" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="1000" />
+									<MidiControllerRange>
+										<Min Value="50" />
+										<Max Value="18000" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21553">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21554">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</MidFreq>
+								<BandWidth>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="4" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="4" />
+									<MidiControllerRange>
+										<Min Value="0.5" />
+										<Max Value="9" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21555">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21556">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</BandWidth>
+								<InstantRepeat>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="false" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="false" />
+									<AutomationTarget Id="21557">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</InstantRepeat>
+							</BeatRepeat>
 						</Devices>
 					</DeviceChain>
 				</DeviceChain>
@@ -78014,7 +78510,7 @@
 			<LoopStart Value="8" />
 			<LoopLength Value="16" />
 			<LoopIsSongStart Value="false" />
-			<CurrentTime Value="14.451065759637189" />
+			<CurrentTime Value="15.951065759637189" />
 			<PunchIn Value="false" />
 			<PunchOut Value="false" />
 			<DrawMode Value="false" />
