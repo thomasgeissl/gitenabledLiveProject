@@ -37,8 +37,8 @@
 					<AutomationLanes>
 						<AutomationLanes>
 							<AutomationLane>
-								<SelectedDevice Value="98" />
-								<SelectedEnvelope Value="19" />
+								<SelectedDevice Value="99" />
+								<SelectedEnvelope Value="8" />
 								<IsContentSelected Value="true" />
 								<LaneHeight Value="85" />
 								<FadeViewVisible Value="false" />
@@ -73560,6 +73560,346 @@
 									</ModulationAutomation>
 								</MixDirect>
 							</Reverb>
+							<PingPongDelay Id="4">
+								<LomId Value="0" />
+								<LomIdView Value="0" />
+								<IsExpanded Value="true" />
+								<On>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="true" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="true" />
+									<AutomationTarget Id="21512">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</On>
+								<ParametersListWrapper LomId="0" />
+								<LastSelectedTimeableIndex Value="8" />
+								<LastSelectedClipEnvelopeIndex Value="0" />
+								<LastPresetRef>
+									<Value>
+										<AbletonDefaultPresetRef>
+											<FileRef>
+												<HasRelativePath Value="true" />
+												<RelativePathType Value="5" />
+												<RelativePath>
+													<RelativePathElement Dir="Devices" />
+													<RelativePathElement Dir="Audio Effects" />
+													<RelativePathElement Dir="Ping Pong Delay" />
+												</RelativePath>
+												<Name Value="" />
+												<Type Value="2" />
+												<Data>
+													00000000020C00020001036F7378000000000000000000000000000000000000000000000000D80A
+													C0A8482B0000002BDDD50F50696E6720506F6E672044656C61790000000000000000000000000000
+													00000000000000000000000000000000000000000000000000000000000000000000002BDDF3D852
+													F92B0000000000000000FFFFFFFF000009200000000000000000000000000000000D417564696F20
+													4566666563747300001000080000D80B06F80000001100080000D8533F7B00000001001C002BDDD5
+													002BD159002BCC1C002BCC11002BCC0F002BCC0E0000017B0002007A6F73783A4170706C69636174
+													696F6E733A0041626C65746F6E204C69766520392053756974652E6170703A00436F6E74656E7473
+													3A004170702D5265736F75726365733A00436F7265204C6962726172793A00446576696365733A00
+													417564696F20456666656374733A0050696E6720506F6E672044656C6179000E0020000F00500069
+													006E006700200050006F006E0067002000440065006C00610079000F00080003006F007300780012
+													006F4170706C69636174696F6E732F41626C65746F6E204C69766520392053756974652E6170702F
+													436F6E74656E74732F4170702D5265736F75726365732F436F7265204C6962726172792F44657669
+													6365732F417564696F20456666656374732F50696E6720506F6E672044656C617900001300012F00
+													FFFF0000
+												</Data>
+												<RefersToFolder Value="true" />
+												<SearchHint>
+													<PathHint />
+													<FileSize Value="0" />
+													<Crc Value="0" />
+													<MaxCrcSize Value="0" />
+													<HasExtendedInfo Value="false" />
+												</SearchHint>
+												<LivePackName Value="Core Library" />
+												<LivePackId Value="www.ableton.com/0" />
+											</FileRef>
+											<DeviceId Name="PingPongDelay" />
+										</AbletonDefaultPresetRef>
+									</Value>
+								</LastPresetRef>
+								<LockedScripts />
+								<IsFolded Value="false" />
+								<ShouldShowPresetName Value="false" />
+								<UserName Value="" />
+								<Annotation Value="" />
+								<SourceContext>
+									<Value>
+										<BranchSourceContext>
+											<OriginalFileRef>
+												<FileRef>
+													<HasRelativePath Value="true" />
+													<RelativePathType Value="5" />
+													<RelativePath>
+														<RelativePathElement Dir="Devices" />
+														<RelativePathElement Dir="Audio Effects" />
+														<RelativePathElement Dir="Ping Pong Delay" />
+													</RelativePath>
+													<Name Value="" />
+													<Type Value="2" />
+													<Data>
+														00000000020C00020001036F7378000000000000000000000000000000000000000000000000D80A
+														C0A8482B0000002BDDD50F50696E6720506F6E672044656C61790000000000000000000000000000
+														00000000000000000000000000000000000000000000000000000000000000000000002BDDF3D852
+														F92B0000000000000000FFFFFFFF000009200000000000000000000000000000000D417564696F20
+														4566666563747300001000080000D80B06F80000001100080000D8533F7B00000001001C002BDDD5
+														002BD159002BCC1C002BCC11002BCC0F002BCC0E0000017B0002007A6F73783A4170706C69636174
+														696F6E733A0041626C65746F6E204C69766520392053756974652E6170703A00436F6E74656E7473
+														3A004170702D5265736F75726365733A00436F7265204C6962726172793A00446576696365733A00
+														417564696F20456666656374733A0050696E6720506F6E672044656C6179000E0020000F00500069
+														006E006700200050006F006E0067002000440065006C00610079000F00080003006F007300780012
+														006F4170706C69636174696F6E732F41626C65746F6E204C69766520392053756974652E6170702F
+														436F6E74656E74732F4170702D5265736F75726365732F436F7265204C6962726172792F44657669
+														6365732F417564696F20456666656374732F50696E6720506F6E672044656C617900001300012F00
+														FFFF0000
+													</Data>
+													<RefersToFolder Value="true" />
+													<SearchHint>
+														<PathHint />
+														<FileSize Value="0" />
+														<Crc Value="0" />
+														<MaxCrcSize Value="0" />
+														<HasExtendedInfo Value="false" />
+													</SearchHint>
+													<LivePackName Value="Core Library" />
+													<LivePackId Value="www.ableton.com/0" />
+												</FileRef>
+											</OriginalFileRef>
+											<BrowserContentPath Value="query:AudioFx#Ping%20Pong%20Delay" />
+											<PresetRef>
+												<AbletonDefaultPresetRef>
+													<FileRef>
+														<HasRelativePath Value="true" />
+														<RelativePathType Value="5" />
+														<RelativePath>
+															<RelativePathElement Dir="Devices" />
+															<RelativePathElement Dir="Audio Effects" />
+															<RelativePathElement Dir="Ping Pong Delay" />
+														</RelativePath>
+														<Name Value="" />
+														<Type Value="2" />
+														<Data>
+															00000000020C00020001036F7378000000000000000000000000000000000000000000000000D80A
+															C0A8482B0000002BDDD50F50696E6720506F6E672044656C61790000000000000000000000000000
+															00000000000000000000000000000000000000000000000000000000000000000000002BDDF3D852
+															F92B0000000000000000FFFFFFFF000009200000000000000000000000000000000D417564696F20
+															4566666563747300001000080000D80B06F80000001100080000D8533F7B00000001001C002BDDD5
+															002BD159002BCC1C002BCC11002BCC0F002BCC0E0000017B0002007A6F73783A4170706C69636174
+															696F6E733A0041626C65746F6E204C69766520392053756974652E6170703A00436F6E74656E7473
+															3A004170702D5265736F75726365733A00436F7265204C6962726172793A00446576696365733A00
+															417564696F20456666656374733A0050696E6720506F6E672044656C6179000E0020000F00500069
+															006E006700200050006F006E0067002000440065006C00610079000F00080003006F007300780012
+															006F4170706C69636174696F6E732F41626C65746F6E204C69766520392053756974652E6170702F
+															436F6E74656E74732F4170702D5265736F75726365732F436F7265204C6962726172792F44657669
+															6365732F417564696F20456666656374732F50696E6720506F6E672044656C617900001300012F00
+															FFFF0000
+														</Data>
+														<RefersToFolder Value="true" />
+														<SearchHint>
+															<PathHint />
+															<FileSize Value="0" />
+															<Crc Value="0" />
+															<MaxCrcSize Value="0" />
+															<HasExtendedInfo Value="false" />
+														</SearchHint>
+														<LivePackName Value="Core Library" />
+														<LivePackId Value="www.ableton.com/0" />
+													</FileRef>
+													<DeviceId Name="PingPongDelay" />
+												</AbletonDefaultPresetRef>
+											</PresetRef>
+											<BranchDeviceId Value="device:ableton:audiofx:PingPongDelay?n=Ping%20Pong%20Delay" />
+										</BranchSourceContext>
+									</Value>
+								</SourceContext>
+								<OverwriteProtectionNumber Value="2306" />
+								<MidFreq>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="1000" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="1000" />
+									<MidiControllerRange>
+										<Min Value="50" />
+										<Max Value="18000" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21513">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21514">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</MidFreq>
+								<BandWidth>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="4" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="4" />
+									<MidiControllerRange>
+										<Min Value="0.5" />
+										<Max Value="9" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21515">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21516">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</BandWidth>
+								<DelayModeSwitch>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="true" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="true" />
+									<AutomationTarget Id="21517">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</DelayModeSwitch>
+								<BeatDelayTime>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<EnumEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<AutomationTarget Id="21518">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+								</BeatDelayTime>
+								<BeatDelayOffset>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="-0.3330000043" />
+										<Max Value="0.3330000043" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21519">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21520">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</BeatDelayOffset>
+								<MsDelayTime>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="1" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="1" />
+									<MidiControllerRange>
+										<Min Value="1" />
+										<Max Value="999" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21521">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21522">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</MsDelayTime>
+								<Feedback>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0.6000000238" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0.6000000238" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="0.9499999881" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21523">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21524">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</Feedback>
+								<DryWet>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<FloatEvent Time="-63072000" Value="0.2619047761" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="0.2619047761" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="1" />
+									</MidiControllerRange>
+									<AutomationTarget Id="21525">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="21526">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+									<ModulationAutomation>
+										<Events />
+									</ModulationAutomation>
+								</DryWet>
+								<Freeze>
+									<LomId Value="0" />
+									<ArrangerAutomation>
+										<Events>
+											<BoolEvent Time="-63072000" Value="false" />
+										</Events>
+									</ArrangerAutomation>
+									<Manual Value="false" />
+									<AutomationTarget Id="21527">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</Freeze>
+								<DelayTransitionMode Value="1" />
+							</PingPongDelay>
 						</Devices>
 					</DeviceChain>
 				</DeviceChain>
@@ -77674,7 +78014,7 @@
 			<LoopStart Value="8" />
 			<LoopLength Value="16" />
 			<LoopIsSongStart Value="false" />
-			<CurrentTime Value="9.9510657596371885" />
+			<CurrentTime Value="14.451065759637189" />
 			<PunchIn Value="false" />
 			<PunchOut Value="false" />
 			<DrawMode Value="false" />
